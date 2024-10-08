@@ -26,14 +26,30 @@ function Write() {
         </div>
         <div className='border p-3 rounded-lg'>
           <h1 className='text-center font-bold text-gray-700 text-[20px]'>Category</h1>
-          <ul>
-            <li><input type="checkbox" className='border'/>Science</li>
-            <li><input type="checkbox" />Technology</li>
-            <li><input type="checkbox" />Cinema</li>
-            <li><input type="checkbox" />Design</li>
-            <li><input type="checkbox" />Food</li>
+          <div className='flex gap-2 items-center'>
+          <input type="radio" value="Science"/>
+          <label htmlFor="">Science</label>
+          </div>
+          <div className='flex gap-2 items-center'>
+          <input type="radio" value="Technology"/>
+          <label htmlFor="">Technology</label>
+          </div>
+          <div className='flex gap-2 items-center'>
+          <input type="radio" value="Cinema"/>
+          <label htmlFor="">Cinema</label>
+          </div>
+          <div className='flex gap-2 items-center'>
+          <input type="radio" value="Design"/>
+          <label htmlFor="">Design</label>
+          </div>
+          <div className='flex gap-2 items-center'>
+          <input type="radio" value="Food"/>
+          <label htmlFor="">Food</label>
+          </div>
+           
          
-          </ul>
+         
+          
          
 
         </div>
